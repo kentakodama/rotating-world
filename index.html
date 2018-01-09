@@ -38,8 +38,8 @@
   <script>
 (function(){
 
-  var height = 600;
-  var width = 900;
+  var height = 900;
+  var width = 1200;
   var projection = d3.geoOrthographic().clipAngle(90);
   var path = d3.geoPath().projection(projection);
   var map = void 0;
@@ -70,7 +70,7 @@
   svg.append('rect')
       .attr("width", width)
       .attr("height", height)
-      .attr('fill', '#20174f');
+      .attr('fill', '#081528');
 
 
   d3.json('world.json', function(data) {
